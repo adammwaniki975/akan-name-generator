@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Akan Name Generator </title>
+</head>
+ <link rel="stylesheet" href="styles.css">
+
+<body>
+    
+<h1> Welcome to the Akan Name Generator </h1>
+ <p> <em> Generate authentic Ghanaian names with meaning and cultural context. Explore Akan, Ewe, Ga, and more—perfect for parents, writers, and anyone curious about Ghana’s rich naming traditions.
+</em></p>
+ <div id="form">
+<form id="akanForm">
+
+  <label for="birthdate">Select your birth date:</label>
+  <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+  <label>Gender:</label><br>
+  <select id="gender" name="gender" required>
+    <option value="">Select Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select><br><br>
+
+  <button type="submit" value="Generate Akan Name">Generate Akan Name</button>
+</form>
+
+</div>
+<div id="result">
+<h2>Your Akan Name is:</h2>
+<p id="akanName"></p>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
